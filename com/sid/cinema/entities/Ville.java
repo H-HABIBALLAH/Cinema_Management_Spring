@@ -17,5 +17,5 @@ public class Ville {
     private double latitude;
     private double altitude;
     @OneToMany(mappedBy = "ville")
-    private Collection<Cinema> cinemasList;
+    private Collection<Cinema> cinemas;
 }
